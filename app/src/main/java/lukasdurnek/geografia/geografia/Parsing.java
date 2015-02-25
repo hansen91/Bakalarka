@@ -14,7 +14,7 @@ public class Parsing {
     }
 
     public static void parse() throws FileNotFoundException{
-        Scanner scn = new Scanner(new FileReader("@data/zoznamStatov.txt"));
+        Scanner scn = new Scanner(new FileReader("zoznamStatov.txt"));
         String phrase;
         int i = 0;
 
