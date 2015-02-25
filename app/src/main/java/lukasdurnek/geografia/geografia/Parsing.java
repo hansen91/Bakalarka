@@ -18,7 +18,7 @@ public class Parsing {
         String phrase;
         int i = 0;
 
-        System.out.println("Start parsing...");
+        System.out.println("Start parsovania...");
 
         while (scn.hasNext()){
             phrase = scn.nextLine();
