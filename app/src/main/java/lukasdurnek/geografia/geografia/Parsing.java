@@ -9,7 +9,7 @@ public class Parsing {
     private static Stat [] staty;
 
     public static void main(String [] args) throws FileNotFoundException{
-        staty = new Stat [200];
+        staty = new Stat [195];
         parse();
     }
 
@@ -18,7 +18,7 @@ public class Parsing {
         String phrase;
         int i = 0;
 
-        System.out.println("Start parsovania...");
+        System.out.println("Start parsing...");
 
         while (scn.hasNext()){
             phrase = scn.nextLine();

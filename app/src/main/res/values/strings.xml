@@ -4,5 +4,8 @@
     <string name="app_name">Geografia</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_kontinent">Kontinent</string>
+    <string name="title_activity_skuska">skuska</string>
+    <string name="title_activity_svetadiel">Svetadiel</string>
 
 </resources>

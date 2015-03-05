@@ -4,26 +4,30 @@
     android:layout_height="match_parent"
     android:background="@drawable/pozadie">
 
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Prehľad štátov"
         android:id="@+id/btnPrehlad"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="140dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="178dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Kontinent"
-        android:id="@+id/textKont"
-        android:textStyle="bold"
+        android:id="@+id/textViewKont"
+        android:layout_marginTop="31dp"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/btnPrehlad"
-        android:layout_toStartOf="@+id/btnPrehlad"
-        android:layout_marginTop="34dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:textStyle="bold"
+        android:textSize="20dp" />
 
 </RelativeLayout>
